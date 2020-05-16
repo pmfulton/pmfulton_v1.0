@@ -1,0 +1,10 @@
+.me {
+    height: 50%;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: tomato;
+    box-shadow: 5px 5px 10px;
+}
