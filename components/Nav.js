@@ -11,11 +11,6 @@ function NavBar() {
                     </Link>
                 </li>
                 <li className={styles.element}>
-                    <Link href="/about">
-                        <a className={styles.bullet}>About Me</a>
-                    </Link>
-                </li>
-                <li className={styles.element}>
                     <Link href="/projects">
                         <a className={styles.bullet}>Projects</a>
                     </Link>
