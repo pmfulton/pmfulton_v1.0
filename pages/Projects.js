@@ -14,7 +14,7 @@ function ProjectsPage() {
                 <Nav />
                 <Table />
                 <Footer />
-            </body>
+            </body>        
         </html>
     )
 }

@@ -26,7 +26,7 @@ function AboutMe() {
                     </p>
                     <p className={styles.text}>
                         In my spare time, I like to tinker with computer hardware and assembling my own computers. My last build incorporated a custom liquid cooling loop with pmma tubing to 
-                        cool the installed intel i9 9900k cpu. 
+                        cool the installed intel i9 9900k cpu.         
                     </p>
 
                     <p className={styles.text}> 
