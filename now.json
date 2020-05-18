@@ -1,5 +1,4 @@
 {
-    "name": "pmfulton_app",
     "version": 2,
     "builds": [{ "src": "*.js", "use": "@now/node" }]
 }
