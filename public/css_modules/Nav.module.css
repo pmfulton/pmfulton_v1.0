@@ -1,7 +1,7 @@
 .bullet {
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 2% 2%;
+    padding: 3% 3%;
     color: white;
     text-decoration: none;
     text-align: center;
@@ -14,14 +14,14 @@
 }
 
 .list {
-  list-style-type: disc;
   background-color: Black;
-  font-size: 20px;
+  font-size: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
   padding: 20px;
+  overflow: hidden;
 }
 
 .element {
   display: inline;
+  line-height: 40px;
 }

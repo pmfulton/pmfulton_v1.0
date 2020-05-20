@@ -4,12 +4,14 @@ import Header from "../components/PageHeaders.js"
 import Table from "../components/Table.js"
 import Footer from "../components/Footer.js"
 
+import styles from "../public/css_modules/styles.module.css"
+
 
 function ProjectsPage() {
     return (
         <html>
             <Tab title="Projects"/>
-            <body>
+            <body className={styles.page}>
                 <Header heading="Deployed Projects" />
                 <Nav />
                 <Table />
