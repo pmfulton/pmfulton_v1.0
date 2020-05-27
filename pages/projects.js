@@ -11,8 +11,9 @@ function ProjectsPage() {
     return (
         <html>
             <Tab title="Projects"/>
-            <body className={styles.page}>
+            <body className={styles.body}>
                 <Header heading="Deployed Projects" />
+                
                 <Nav />
                 <Table />
                 <Footer />

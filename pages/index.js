@@ -10,10 +10,10 @@ function AboutMe() {
     return (
         <html>
             <Tab title="Home"/>
-            <body className={styles.page}>
+            <body className={styles.body}>
                 <Header heading="Peter Fulton - Aspiring Full Stack Software Engineer" />
                 <NavBar />
-                <div className= {styles.body}>
+                <div className={styles.indexBody}>
                     <p> 
                         <img src="me.jpg" alt="self" />
                         Hi! My name is Peter Fulton and I am an aspiring full-stack software engineer. 
@@ -35,9 +35,9 @@ function AboutMe() {
                         relevant programming technologies. 
                     </p>
                     
+                    
                 </div>
-                <Footer />
-                
+                <Footer />     
             </body>
         </html>
 

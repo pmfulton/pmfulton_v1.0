@@ -1,8 +1,12 @@
-import styles from '../public/css_modules/Headers.module.css'
+import styles from '../public/css_modules/styles.module.css'
 
 function Headers(props) {
     return (
-        <h1 className={styles.heading}>{props.heading}</h1>
+        <div className={styles.header}>
+            <h1>{props.heading}</h1>
+        </div>
+        
+
     )
 }
 

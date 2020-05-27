@@ -1,43 +1,121 @@
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    font-size: 100%;
+}
 
+.header {
+    width: 100%;
+    height: 7rem;
+    background-color: beige;
+    position: absolute;
+    padding-top: 1rem;
+    top: 0;
+    text-align: center;
+    text-shadow: 2px 2px darkgrey;
+}
 
-.page {
-    min-height: 100vh;
+.navContainer {
+    width: 100%;
     position: relative;
+    top: 6rem;
 }
 
 
-.body p{
+.navList {
+    background-color: Black;
+    padding: 20px;
+    overflow: hidden;
+  }
+
+.navElement {
+    display: inline;
+    line-height: 40px;
+}
+
+.navBullet {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3% 3%;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navBullet:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.footer {
+    border-top: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    background-color: lightgrey;
+    height: 5rem;
+    width: 100%
+
+
+}
+
+.footer p{
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Table styles */
+
+.table {
+    width: 100%;
+    position: relative;
+    top: 5rem;
+ 
+}
+
+.th {
+    text-align: center;
+    padding: 20px; 
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-    width: 90%;
-    
+
 }
 
-.body img{
-    height: 650px;
+.td {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+/* Styles specific to index page*/
+
+.indexBody {
+    position: relative;
+    top: 7rem;
+    margin-bottom: 10rem;
+}
+
+.indexBody img{
+    height: 600px;
     float: left;
     margin-right: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     box-shadow: 3px 3px grey;
 }
 
-.body {
-    padding-bottom: 5rem;
+.indexBody p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 2rem;
+    text-align: center;
+    width: 90%;
+    margin-left: 1rem;
 }
 
-@supports (display:grid) {
-    .page {
-        position: static;
-        display: grid;
-        grid-template-rows: auto auto 1fr auto;
 
-    }
-    .body {
-        padding-bottom: 1rem;
-    }
-
-
-}
 
