@@ -3,7 +3,7 @@ import styles from '../public/css_modules/styles.module.css'
 
 function NavBar() {
     return (
-        <div className={styles.navContainer}>
+        // <div className={styles.navContainer}>
             <ul className={styles.navList}>
                 <li className={styles.navElement}>
                     <Link href="/">
@@ -22,7 +22,7 @@ function NavBar() {
                     <a href="https://www.linkedin.com/in/pmfulton/" className={styles.navBullet}>LinkedIn Account</a>                
                 </li>
             </ul>
-        </div>
+        // </div>
     )
 }
 

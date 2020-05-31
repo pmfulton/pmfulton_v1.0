@@ -14,8 +14,8 @@ function AboutMe() {
                 <Header heading="Peter Fulton - Aspiring Software Developer" />
                 <NavBar />
                 <div className={styles.indexBody}>
-                    <p id="test"> 
-                        <img src="me.jpg" alt="self" />
+                    <img src="me.jpg" alt="self" />
+                    <p> 
                         Hi! My name is Peter Fulton and I am an aspiring software developer. 
                         I found my passion in programming when I first learned Python for an undergraduate research position at the University of Connecticut.
                         My goal was to create a data analysis program that parsed through a .csv file containing two years of chemical species data
