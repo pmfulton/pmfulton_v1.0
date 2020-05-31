@@ -9,16 +9,16 @@ import styles from "../public/css_modules/styles.module.css"
 
 function ProjectsPage() {
     return (
-        <html>
+        <div>
             <Tab title="Projects"/>
-            <body className={styles.body}>
+            <main>
                 <Header heading="Deployed Projects" />
                 
                 <Nav />
                 <Table />
-                <Footer />
-            </body>        
-        </html>
+                {/* <Footer /> */}
+            </main>        
+        </div>
     )
 }
 

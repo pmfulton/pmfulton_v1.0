@@ -8,15 +8,15 @@ import styles from "../public/css_modules/styles.module.css"
 
 function AboutMe() {
     return (
-        <html>
+        <div>
             <Tab title="Home"/>
-            <body className={styles.body}>
-                <Header heading="Peter Fulton - Aspiring Full Stack Software Engineer" />
+            <main>
+                <Header heading="Peter Fulton - Aspiring Software Developer" />
                 <NavBar />
                 <div className={styles.indexBody}>
-                    <p> 
+                    <p id="test"> 
                         <img src="me.jpg" alt="self" />
-                        Hi! My name is Peter Fulton and I am an aspiring full-stack software engineer. 
+                        Hi! My name is Peter Fulton and I am an aspiring software developer. 
                         I found my passion in programming when I first learned Python for an undergraduate research position at the University of Connecticut.
                         My goal was to create a data analysis program that parsed through a .csv file containing two years of chemical species data
                         collected from a WPCF facility on campus. The program took this data and created time dependent scatter plots to determine if any correlations existed
@@ -30,17 +30,14 @@ function AboutMe() {
 
                     </p>
                     <p> 
-                        Looking for a software engineer? Check out my <a href="/Peter Fulton Resume Manufacturing Resume.pdf" target="_blank" rel="noopener noreffer">resume</a>!
+                        Looking for a software engineer? Check out my <a href="/resume.pdf" target="_blank" rel="noopener noreffer">resume</a>!
                         If you have any questions, feel free to contact me using the email address below. I am always happy to discuss my work and 
                         relevant programming technologies. 
-                    </p>
-                    
-                    
+                    </p>   
                 </div>
-                <Footer />     
-            </body>
-        </html>
-
+                {/* <Footer />      */}
+            </main>
+        </div>
     )
 }
 
