@@ -1,15 +1,17 @@
 
 .header {
-
     width: 100%;
     height: 7rem;
-    background-color: beige;
+    background-color: #709090;
     position: absolute;
+    font-size: large;
     padding-top: 1rem;
     top: 0;
     text-align: center;
     text-shadow: 2px 2px darkgrey;
 }
+
+
 
 .navContainer {
     width: 100%;
@@ -17,11 +19,14 @@
     height: 3rem;
     top: 7rem;
     margin-bottom: 4rem;
+    
+    
 }
 
 
 .navList {
-    background-color: Black;
+    background-color: #708090;
+    border: 1px solid black;
     padding: 20px;
     overflow: hidden;
     position: relative;
@@ -32,6 +37,7 @@
 .navElement {
     display: inline;
     line-height: 40px;
+    border-right: 1px solid black;
 }
 
 .navBullet {
@@ -89,11 +95,6 @@
 }
 
 
-
-
-
-
-
 /* Styles specific to index page*/
 
 .indexBody {
@@ -106,23 +107,79 @@
 }
 
 .indexBody img{
-    height: 600px;
+    height: 400px;
     float: right;
+    border-radius: 20rem;
     padding-bottom: 1rem;
     padding-left: 1rem;
-    max-width: 100%;
-    /* box-shadow: 3px 3px grey; */
+    margin-right: 2.5rem;
+    max-width: 95%;
+
 }
 
 .indexBody p{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
     text-align: center;
     width: 90%;
+    color: whitesmoke;
     padding-left: 1rem;
+    margin-top: 1rem;
 
 }
 
+.indexBody a{
+    color: whitesmoke;
+    text-decoration: none;
+    height: 1px;
+}
 
 
+.spanCont {
+    background-image: linear-gradient(aqua, aqua);
+    background-repeat: no-repeat;
+    background-position: 0% 100%;
+    background-size: 100% 2px;
+    transition: background-size .5s, background-position .3s ease-in .5s;
+}
+
+.spanCont:hover {
+    background-size: 100% 100%;
+    background-position: 0% 0%;
+  }
+
+.projectBody img {
+    max-width: 80%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: 10rem;
+    border-radius: 1rem;
+}
+
+.projectBody a{
+    
+    color: whitesmoke;
+    text-decoration: none;
+
+    
+}
+
+.p1Header {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    top: 8rem;
+}
+
+.projectBody p{
+    position: relative;
+    margin: auto;
+    line-height: 2.5rem;
+    text-align: center;
+    top: 9rem;
+    color: whitesmoke;
+    font-size: 2rem;
+}
