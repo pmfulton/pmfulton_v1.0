@@ -13,8 +13,8 @@ function AboutMe() {
             <main>
                 <Header heading="Peter Fulton - Software Developer" />
                 <NavBar />
+                <img className = {styles.me} src="me.jpg" alt="self" />
                 <div className={styles.indexBody}>
-                    <img src="me.jpg" alt="self" />
                     <p> 
                         Hi! My name is Peter Fulton and I am an aspiring software developer. 
                         I found my passion in programming when I first learned Python for an undergraduate research position at the University of Connecticut.

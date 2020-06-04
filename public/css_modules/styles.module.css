@@ -100,20 +100,23 @@
 .indexBody {
     width: 100%;
     position: relative;
-    top: 9rem;
-    margin-right: 2rem;
+    top: 10rem;
     height: auto;
+
 
 }
 
-.indexBody img{
+.me {
     height: 400px;
-    float: right;
-    border-radius: 20rem;
-    padding-bottom: 1rem;
-    padding-left: 1rem;
-    margin-right: 2.5rem;
-    max-width: 95%;
+    position: relative;
+    top: 8rem;
+    display: block;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    box-shadow: 2px 2px slategrey;
+
 
 }
 
@@ -121,10 +124,11 @@
     font-size: 1.5rem;
     line-height: 2.5rem;
     text-align: center;
-    width: 90%;
     color: whitesmoke;
-    padding-left: 1rem;
-    margin-top: 1rem;
+    margin: 20px;
+    
+
+    
 
 }
 
