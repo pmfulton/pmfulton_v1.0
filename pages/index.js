@@ -6,6 +6,8 @@ import Footer from "../components/Footer.js"
 import styles from "../public/css_modules/styles.module.css"
 
 
+
+
 function AboutMe() {
     return (
         <div>
@@ -13,7 +15,12 @@ function AboutMe() {
             <main>
                 <Header heading="Peter Fulton - Software Developer" />
                 <NavBar />
-                <img className = {styles.me} src="me.jpg" alt="self" />
+                <div class="container">
+                    <img class="me" src="..." alt="Your portrait">
+                    <div class="card">
+                        <p>Short paragraph introducing yourself...</p>
+                    </div>
+                </div>
                 <div className={styles.indexBody}>
                     <p> 
                         Hi! My name is Peter Fulton and I am an aspiring software developer. 
