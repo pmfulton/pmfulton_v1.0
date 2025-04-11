@@ -25,8 +25,7 @@ function AboutMe() {
                         in python and javascript, I am always looking for new opportunities to test my skills with other languages.
                     </p>
                     <p>
-                        In my spare time, I like to tinker with computer hardware and assemble my own computers. My last build incorporated a custom liquid cooling loop with pmma tubing to 
-                        cool the installed intel i9 9900k cpu.  
+                        I am testing the git push and deployment of this website. 
 
                     </p>
                     <p> 
