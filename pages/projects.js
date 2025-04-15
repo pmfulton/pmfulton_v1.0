@@ -11,7 +11,8 @@ import styles from "../public/css_modules/styles.module.css"
 
 function ProjectsPage() {
     return (
-        <div>
+        <div class="pageWrapper">
+
             <Tab title="Projects"/>
             <main className={styles.projectBody}>
                 <Header heading="Current Projects" />
@@ -23,9 +24,6 @@ function ProjectsPage() {
                 <p> A minimalistic weather application that uses the mapbox and darksky apis to fetch geolocation data and weather data respectively.<br></br>
                     An interactive map is provided to help you keep track of your current search location. Try it out!
                 </p>
-                <img src="cloud.png"></img>
-  
-           
             </main>        
         </div>
     )
