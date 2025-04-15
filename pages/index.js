@@ -6,8 +6,6 @@ import Footer from "../components/Footer.js"
 import styles from "../public/css_modules/styles.module.css"
 
 
-
-
 function AboutMe() {
     return (
         <div>
@@ -16,7 +14,7 @@ function AboutMe() {
                 <Header heading="Peter Fulton - Software Developer" />
                 <NavBar />
                 <div class="container">
-                    <img class="me" src="..." alt="Your portrait">
+                    <img class="me" src="..." alt="Your portrait"></img>
                     <div class="card">
                         <p>Short paragraph introducing yourself...</p>
                     </div>
